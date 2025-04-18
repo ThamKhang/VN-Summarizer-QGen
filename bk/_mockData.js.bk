@@ -1,0 +1,42 @@
+// Dữ liệu mẫu cho phân tích văn bản
+export const mockAnalysisData = {
+    keywords: ["Việt Nam", "độc lập", "2/9/1945", "Hồ Chí Minh", "Quảng trường Ba Đình"],
+    important_sentences: [
+      "Việt Nam giành độc lập ngày 2/9/1945 tại Quảng trường Ba Đình dưới sự lãnh đạo của Hồ Chí Minh."
+    ],
+    entities: ["Hồ Chí Minh", "Quảng trường Ba Đình", "2/9/1945"]
+  };
+  
+  // Dữ liệu mẫu cho tóm tắt
+  export const mockSummaryData = {
+    base_summary: "Việt Nam độc lập 1945.",
+    enhanced_summary: "Việt Nam giành độc lập ngày 2/9/1945 dưới sự lãnh đạo của Chủ tịch Hồ Chí Minh tại Quảng trường Ba Đình.",
+    summary_length: 23,
+    rouge_score: 0.67
+  };
+  
+  // Dữ liệu mẫu cho câu hỏi
+  export const mockQuestionsData = [
+    {
+      question: "Ai là người lãnh đạo Cách mạng tháng Tám?",
+      type: "mcq",
+      answers: ["Phạm Văn Đồng", "Hồ Chí Minh", "Trường Chinh"],
+      correct_index: 1
+    },
+    {
+      question: "Sự kiện ngày 2/9/1945 diễn ra tại đâu?",
+      type: "mcq",
+      answers: ["Hà Nội", "Quảng trường Ba Đình", "Huế"],
+      correct_index: 1
+    },
+    {
+      question: "Sự kiện 2/9/1945 đánh dấu điều gì?",
+      type: "fill",
+      answer: "Sự ra đời của nước Việt Nam Dân chủ Cộng hòa"
+    },
+    {
+      question: "Hồ Chí Minh có vai trò lãnh đạo trong sự kiện 2/9/1945.",
+      type: "tf",
+      answer: true
+    }
+  ];
