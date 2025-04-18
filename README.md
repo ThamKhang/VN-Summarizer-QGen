@@ -28,9 +28,7 @@
 
 - **Frontend**: Next.js, React, Tailwind CSS
 - **UI Components**: Shadcn UI
-- **Animation**: Framer Motion
-- **Icons**: Lucide React
-- **API**: Google Gemini API / OpenAI API
+- **AI**: Google Gemini API / OpenAI API
 - **NLP**: TextRank, PhoBERT (thông qua API chưa tích hợp)
 
 ## ⚙️ Cài đặt và chạy
@@ -80,7 +78,7 @@ Mở trình duyệt tại: http://localhost:3000
 4. **Tùy chỉnh**: Thay đổi thông số trong tab `Cấu hình` nếu muốn.
 5. **Tải xuống**: Tải câu hỏi về dưới dạng `.txt`.
 
-## 🧱 Kiến trúc hệ thống
+## 🧱 Kiến trúc hệ thống định hướng
 
 ### 1. Mô-đun Tóm tắt
 - **TextRank**: Trích xuất 20% câu quan trọng từ văn bản.
