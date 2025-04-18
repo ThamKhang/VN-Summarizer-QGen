@@ -2,17 +2,27 @@
 
 Ứng dụng tóm tắt văn bản tiếng Việt và tạo câu hỏi tự động bằng AI.
 
+
 ## ✨ Tính năng chính
 
 - **Phân tích văn bản**: Trích xuất từ khóa và câu quan trọng sử dụng thuật toán TextRank.
+    - ![image](https://github.com/user-attachments/assets/16434491-6b51-400b-b2c9-717cc92e2636)
 - **Tóm tắt thông minh**: Tạo tóm tắt ngắn gọn, tự nhiên, giữ nguyên ý chính.
+    - ![image](https://github.com/user-attachments/assets/ae54f54b-9cef-4121-a45d-45214f568c61)
+
 - **Tạo câu hỏi đa dạng**: Tự động sinh câu hỏi trắc nghiệm với nhiều định dạng:
-  - Câu hỏi nhiều lựa chọn (MCQ)
-  - Câu hỏi Đúng/Sai (True/False)
-  - Câu hỏi điền khuyết (Fill-in-the-blank)
+  - ![image](https://github.com/user-attachments/assets/084ce9eb-eae0-41d2-831c-1ea7e0a314bc)
+
+    - Câu hỏi nhiều lựa chọn (MCQ)
+    - Câu hỏi Đúng/Sai (True/False)
+    - Câu hỏi điền khuyết (Fill-in-the-blank)
 - **Tùy chỉnh linh hoạt**: Điều chỉnh tỷ lệ trích xuất, độ dài tóm tắt, số lượng câu hỏi.
+  - ![image](https://github.com/user-attachments/assets/6fa69a69-f5f8-4b1c-b2b9-6ef79083c968)
+
 - **Xử lý văn bản dài**: Hỗ trợ phân đoạn (chunking) để phân tích văn bản lớn.
 - **Xuất kết quả**: Cho phép tải xuống câu hỏi dưới dạng file `.txt`.
+  - ![image](https://github.com/user-attachments/assets/0ae871b3-e4ee-402f-ba95-0b0c9f7f9270)
+
 
 ## 🛠️ Công nghệ sử dụng
 
